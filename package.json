@@ -65,6 +65,7 @@
     "build:app": "yarn --cwd ./excalidraw-app build:app",
     "build:version": "yarn --cwd ./excalidraw-app build:version",
     "build": "yarn --cwd ./excalidraw-app build",
+    "build:gp": "yarn --cwd ./excalidraw-gp build && cp -r build dist",
     "fix:code": "yarn test:code --fix",
     "fix:other": "yarn prettier --write",
     "fix": "yarn fix:other && yarn fix:code",
